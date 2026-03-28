@@ -1,3 +1,23 @@
+# How to Deploy a NextJS SSR application on Azure App Service
+
+Deploying NextJS to Azure App Service is not as straightforward as it sounds. So, I created this repo and YouTube video on how to do it
+
+YouTube video link:
+
+## Steps to Deploy on Azure
+
+1. Create NextJS App
+1. Create Azure App Service
+   1. OS: Linux
+   1. Node Version: 24 LTS
+   1. Startup Command: `npm start`
+   1. Deployment model: Server-based deployment - Good for SSR (how to do it is explained in the video)
+1. Set Startup command
+1. Install Azure Tools
+1. Deploy the code
+
+# Default README
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

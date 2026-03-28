@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/a4d549c6-4ccf-4b24-95c4-adc9f07f7ea8/resourceGroups/rg-nextjs-azure-deployment-demo/providers/Microsoft.Web/sites/ui-nextjs-azure-deployment-demo",
+    "appService.deploySubpath": "."
+}
